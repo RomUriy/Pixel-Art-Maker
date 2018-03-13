@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pixel Art Maker</title>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Monoton'>
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+<br>
+  <h1>Pixel Art Maker</h1>
+  <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" max="100" value="5">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" max="100" value="5">
+        <input  type="submit" id="sub" value="Submit">
+    </form>
+
+    <section class="switch"><h3>Pick A Color : <input type="color" id="colorPicker"> Show gridlines: <input id="grid-switch" type="checkbox" checked></h3></section>          
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas">
+    </table>
+
+   <i class="fa fa-search-plus" style="font-size: 30px;" id="zoomin"></i>  
+   <i class="fa fa-search-minus" style="font-size: 30px;" id="zoomout"></i><br>
+   <input id="clear" type="button" value="Clear">
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="js/index.js"></script>
+
+</body>
+</html>
