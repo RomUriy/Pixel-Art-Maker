@@ -5,6 +5,7 @@ const pixelCanvas = $('#pixelCanvas'); // the table
 const row ='<tr></tr>'; // to add row to the table
 const colomn = '<td></td>'; // to add colomn to the table
 
+Hello
 
 // Main function in this script
 function makeGrid() { 
