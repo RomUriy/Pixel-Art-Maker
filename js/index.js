@@ -6,6 +6,8 @@ const row ='<tr></tr>'; // to add row to the table
 const colomn = '<td></td>'; // to add colomn to the table
 
 Hello
+Hello 
+Hello
 
 // Main function in this script
 function makeGrid() { 
